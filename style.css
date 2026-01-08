@@ -29,7 +29,7 @@ a {
 }
 
 .logo {
-    height: 38px;
+    height: 46px;
 }
 
 .nav-links a {
@@ -89,13 +89,20 @@ a {
 .pill {
     display: inline-block;
     padding: 6px 14px;
-    border-radius: 999px;
-    background: rgba(45, 182, 124, 0.15);
-    color: #9ff0cc;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+    color: #469165;
     font-size: 13px;
     margin-bottom: 20px;
 }
+.pill .pointer{
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    padding: 0 5px 1px;
 
+}
 .hero h1 {
     font-size: 72px;
     margin-bottom: 16px;
@@ -188,15 +195,14 @@ a {
 }
 
 .solution h3 {
-    font-size: 30px;
-    max-width: 70%;
+    font-size: 48px;
     font-weight: 700;
     margin: 10px 0;
 }
 
 .solution p {
-    font-size: 12px;
-    max-width: 70%;
+    font-size: 14px;
+    font-weight: 400;
     color: #64748b;
     margin-bottom: 20px;
 }
@@ -230,7 +236,9 @@ a {
 }
 
 .cta h3 {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
 }
 
 .cta p {
