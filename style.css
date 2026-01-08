@@ -9,3 +9,111 @@ body {
     background: #ffffff;
     color: #1e293b;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-inner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 22px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 38px;
+}
+
+.nav-links a {
+    margin: 0 16px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #334155;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #2db67c;
+}
+
+.btn {
+    background: #2db67c;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.25s ease;
+}
+
+.btn:hover {
+    background: #249867;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(45, 182, 124, 0.35);
+}
+
+.btn-outline {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.25s ease;
+}
+
+.btn-outline:hover {
+    background: #ffffff;
+    color: #081c2f;
+}
+.hero {
+    height: 615px;
+    background: url("assets/hero-bg.png") center / cover;
+    padding: 110px 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-inner {
+    max-width: 860px;
+    margin: auto;
+}
+
+.pill {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(45, 182, 124, 0.15);
+    color: #9ff0cc;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.hero h1 span {
+    color: #30B868;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #cbd5e1;
+    max-width: 70%;
+    margin: 30px auto;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
